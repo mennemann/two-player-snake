@@ -121,6 +121,4 @@ class Game:
         
         
 if __name__ == '__main__':
-    b = Game(110, 50, speed = 2, scale = 13, m_players=True)
-    
-    b.loop()
+    Game(110, 50, speed = 2, scale = 13, m_players=True).loop()
